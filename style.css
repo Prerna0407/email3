@@ -1,0 +1,197 @@
+
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+@media print {
+  @page {
+    margin: 0;
+    size: A4;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: #5f6368;
+  font-size: 18px;
+}hr.h12 {
+    width: 100%;
+  
+}
+
+.toCenter {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mane{
+      font-size: 14px !important;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+.mane1{
+      font-size: 14px !important;
+    font-weight: 600;
+    margin-top: 88px;
+    margin-left: 10px;
+}
+hr.h34 {
+  border: 1px solid;
+  margin-top: -29px;
+  width: 250px;
+  margin-left: 1;
+  margin-left: 262px;
+}
+.mane2{
+  width: 200px;
+    font-weight: 600;
+    margin-top: 84px;
+    margin-left: 10px;
+    font-size: 14px !important;
+}
+.group-2.\.col-md-12 {
+  width: 607px !important;
+}
+.grid-container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.33fr 1fr;
+  width: 288mm;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+p.about1 {
+    width: 314px;
+}
+.call {
+  margin-left: 22px;
+}
+
+.row.mt-5 {
+  margin-top: 46px;
+}
+.grid-container .zone-1 {
+    background: #403f3f;
+    width: 373px;
+    color: white;
+}
+.grid-container .zone-1 .profile {
+    display: inline-flex;
+    margin-left: -15px;
+    width: 402px;
+    height: 220px;
+    background-image: url(https://image.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg);
+    background-position: center top;
+}
+i.fas.fa-phone-volume {
+    font-size: 22px;
+    color: #31b0d5;
+}
+i.fas.fa-envelope-open {
+    font-size: 22px;
+    color:  #31b0d5;
+}
+i.fas.fa-building{
+    font-size: 22px;
+    color:  #31b0d5;
+}
+i.fas.fa-location-arrow{
+    font-size: 22px;
+    color:  #31b0d5;
+}
+.grid-container .zone-1 .contact-box {
+  margin-top: 10px;
+}
+.grid-container .zone-1 .contact-box > * {
+  width: 98%;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.col-md-2 i.fas{
+  font-size: 29px;
+  padding: 7px;
+  margin-bottom: 14px;
+ 
+}
+.grid-container .zone-2 {
+    background: white;
+    padding: 40px 20px;
+    padding-right: 75px;
+    color: black;
+}
+
+.grid-container .zone-2 .headTitle h1 {
+    font-weight: 900 !important;
+    color: black;
+    font-size: 46px;
+}
+.grid-container .zone-2 .subTitle h1 {
+  font-weight: 400 !important;
+}
+.grid-container .zone-2 .box {
+  display: inline-block;
+  /* padding: 4px; */
+  padding: 1px 3px 1px 15px;
+  margin-left: 6px;
+  margin-top: 35px;
+  background: #31b0d5;
+  color: white;
+  width: 209px;
+  height: 5vh;
+}
+.grid-container .zone-2 .group-1 .desc {
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.grid-container .zone-2 .group-2 .desc ul {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.grid-container .zone-2 .group-2 .desc ul:before {
+  content: "";
+  position: absolute;
+    top: 5px;
+  left: -22px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #31b0d5;
+}
+.grid-container .zone-2 .group-2 .desc ul li {
+  list-style-type: none;
+  position: relative;
+}
+.grid-container .zone-2 .group-2 .desc ul li:before {
+  content: "";
+  position: absolute;
+    top: 5px;
+  left: -18px;
+  height: 106px;
+  border-left: 2px solid #31b0d5;
+}
+.grid-container .zone-2 .group-2 .desc ul:last-of-type li:before {
+  content: none;
+}
+.msg-1 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.msg-3 {
+  font-size: 15px;
+}
+.msg-2 {
+  font-size: 14px;
+  color: grey;
+  font-weight: 500;
+}
